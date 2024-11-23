@@ -1,16 +1,16 @@
 {
-  "name": "GHOST-MD",
+  "name": "SAAJI-MD",
   "version": "10.8.1",
-  "description": "GHOST-MD latest multi device whatsapp bot",
+  "description": "SAAJI-MD latest multi device whatsapp bot",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name GHOST-MD",
-    "stop": "pm2 stop GHOST-MD",
-    "restart": "pm2 restart GHOST-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name SAAJI-MD",
+    "stop": "pm2 stop SAAJI-MD",
+    "restart": "pm2 restart SAAJI-MD"
   },
-  "keywords": ["ghost-md", "whatsapp-bot", "whatsapp md bot"],
-  "author": "GHOST-Xsid",
+  "keywords": ["saaji-md", "whatsapp-bot", "whatsapp md bot"],
+  "author": "SAAJI-Xsid",
   "license": "ISC",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
