@@ -5,12 +5,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name SAAJI-MD",
-    "stop": "pm2 stop SAAJI-MD",
-    "restart": "pm2 restart SAAJI-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name saajidmd",
+    "stop": "pm2 stop saajidmd",
+    "restart": "pm2 restart saajidmd"
   },
   "keywords": ["saaji-md", "whatsapp-bot", "whatsapp md bot"],
-  "author": "SAAJI-Xsid",
+  "author": "Saaji-Xsid",
   "license": "ISC",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
